@@ -12,7 +12,7 @@ class Header extends Component {
                 <div className='profile'>
                     <div className='profile__inner'>
                     <img alt="profile-img" id="profile__img" src={photo}/>
-                    <a href='https://twitter.com/RansomEric2' id="name">Victoria Kazeem</a>
+                    <a href='https://twitter.com/RansomEric2' id="name">Ifeanyi Okpara</a>
                     <span id="slack">ransomplain</span>
                     </div>   
                     <div className='share-profile'>
