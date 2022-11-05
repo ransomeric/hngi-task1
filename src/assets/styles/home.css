@@ -1,0 +1,160 @@
+.home {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.links-container {
+    width: 80%;
+    margin: auto;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 80px; */
+}
+
+.profile__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.share-profile,
+.mobile-menu {
+    position: absolute;
+    left: 65%;
+}
+
+.share-btn,
+.menu-btn {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: -15px;
+}
+
+#share-circle,
+#menu-circle {
+    height: 40px;
+    width: 40px;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#share-circle img {
+    height: 12px;
+    /* width: 10px; */
+}
+
+.profile #profile__img {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile #name {
+    margin-top: 15px;
+    text-decoration: none;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+.links-container .btn {
+    background: #EAECF0;
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+    color: #101828;
+    margin: 15px 0;
+
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.social-links {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-links a {
+    margin-right: 5px;
+}
+
+.social-links img {
+    height: 20px;
+}
+
+.btn-text {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+#slack {
+    text-align: center;
+    display: none;
+}
+
+.btn-subtext {
+    display: none;
+    font-size: 12px;
+    color: #10182895;
+    margin-top: 5px;
+}
+
+#menu-circle {
+    margin-top: -15px;
+}
+
+@media (max-width: 767px) {
+
+    .share-profile {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: absolute;
+        right: 10%;
+    }
+
+    .links-container .btn {
+        height: 65px;
+    }
+
+    .btn-text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .links-container {
+        width: 90%;
+    }
+}

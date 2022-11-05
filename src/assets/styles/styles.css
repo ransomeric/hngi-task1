@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.main {
+  font-family: 'Inter', sans-serif;
+  color:  #101828;
+  min-height: 100vh;
+  
+  margin: auto;
+}
+
+@media (min-width: 500px){
+
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+
+}
+
+@media (min-width: 768px){
+  .main{
+    width: 900px;
+  }
+}
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+}

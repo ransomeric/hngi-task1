@@ -1,0 +1,170 @@
+.contact {
+    min-height: 55vh;
+    margin: 15vh 0;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.full-col {
+    width: 100%;
+}
+
+.half-col {
+    width: 48%;
+}
+
+.flex__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify__space-between {
+    justify-content: space-between;
+}
+
+.form-control label, .form-control textarea {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #344054;
+    font-weight: 500;
+}
+
+.form-control input,
+.form-control textarea {
+    font-family: inherit;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.form-control input {
+    padding: 10px 14px;
+}
+
+.form-control textarea {
+    padding: 12px 14px;
+}
+
+.form-control .btn {
+    height: 40px;
+    width: 100%;
+    background: #1570EF;
+    color: #fff;
+    text-decoration: navajowhite;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+
+    border: 1px solid #1570EF;
+
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+input:focus,
+textarea:focus {
+    border: none !important;
+}
+
+.form-control .btn:hover {
+    background: #0752bc;
+}
+
+.form-control textarea {
+    height: 132px;
+    resize: none;
+}
+
+.contact h3 {
+    color: #475467;
+    font-weight: 400;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #667085;
+    font-weight: 400;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #667085;
+    font-weight: 400;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #667085;
+    font-weight: 400;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #667085;
+    font-weight: 400;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #667085;
+    font-weight: 400;
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: #667085;
+    font-weight: 400;
+}
+
+.form-control .container {
+    color: #475467
+}
+
+.contact form {
+    padding: 0.25rem 0;
+}
+
+#btn__submit {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .contact {
+        width: 80%;
+        margin: auto;
+    }
+
+    .flex__row {
+        flex-direction: column;
+    }
+
+    .form-control.half-col {
+        width: 100% !important;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) {
+
+
+
+
+}
